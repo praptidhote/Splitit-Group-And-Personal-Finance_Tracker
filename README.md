@@ -26,10 +26,43 @@
 
 ---
 
+## 📸 System Walkthrough & Screenshots
+
+### 🏠 Landing & Authentication
+
+| Public Landing View | Account Registration |
+| :---: | :---: |
+| ![Landing Page]("C:\Users\Prapti Dhote\Pictures\Picture1.jpg") | ![Registration Page](assets/screenshots/2_registration.png) |
+| *Welcome view detailing how Splitit works* | *Secure user account creation interface* |
+
+### 📊 Dashboard Panels
+
+| Initial Account Setup | Live Expense Tracking |
+| :---: | :---: |
+| ![Empty Dashboard](assets/screenshots/3_dashboard_empty.png) | ![Active Dashboard](assets/screenshots/7_dashboard_active.png) |
+| *Blank canvas metrics view on fresh registration* | *Dynamic transaction tracking with updated total logs* |
+
+### 👤 Expense Logging & Ledger
+
+| Record New Expense | Manage Expense Entries |
+| :---: | :---: |
+| ![Add Expense Form](assets/screenshots/4_add_expense.png) | ![Manage Expenses List](assets/screenshots/5_manage_expense.png) |
+| *Form to document target item names and base costs* | *Historical table data breakdown with direct delete options* |
+
+### 👥 Groups & Analytics Reports
+
+| Group Creation Hub | Datewise Financial Reports |
+| :---: | :---: |
+| ![Create Group Portal](assets/screenshots/6_create_group.png) | ![Datewise Expense Report](assets/screenshots/8_datewise_report.png) |
+| *Dynamic checklists to create split rooms with friends* | *Aggregated range reports highlighting grand totals* |
+
+---
+
 ## 📁 Repository Structure
 
 ```text
 ├── assets/                 # Third-party styling libraries and static fonts
+│   └── screenshots/        # Application system screenshots for repository documentation
 ├── css/                    # Compiled production stylesheets
 ├── sass/                   # Modular SASS codebases defining the UI layer
 ├── js/                     # Component scripts managing client-side events
@@ -95,9 +128,3 @@ Open your web browser and navigate to:
 ```text
 http://localhost/Splitit-Group-And-Personal-Finance_Tracker/index.php
 ```
-
----
-
-## 🔒 Security Features Implemented
-* Session-based user verification to protect dashboard entry.
-* Secure routing patterns using explicit `logout.php` and password updates via `change-password.php`.
