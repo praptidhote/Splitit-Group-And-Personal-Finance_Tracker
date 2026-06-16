@@ -1,13 +1,16 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 $servername = "://infinityfree.com"; 
 $username = "if0_42198247";  
-$password = "YOUR_VPANEL_PASSWORD"; // Put your actual InfinityFree vPanel password here
+$password = "Radha@6509"; 
 $database = "if0_42198247_finance_tracker"; 
 
-$conn = new mysqli($servername, $username, $password, $database);
+$con = mysqli_connect($servername, $username, $password, $database);
 
-// Check connection
-if ($conn->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+if (mysqli_connect_errno()) {
+    die("Connection failed: " . mysqli_connect_error());
 }
 ?>
