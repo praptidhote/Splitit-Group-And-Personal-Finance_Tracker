@@ -1,8 +1,8 @@
 <?php
-$servername = "localhost";  // Change if needed
-$username = "root";         // Change if needed
-$password = "";             // Change if needed
-$database = "detsdb"; // Change to your actual database name
+$servername = "://infinityfree.com"; 
+$username = "if0_42198247";  
+$password = "YOUR_VPANEL_PASSWORD"; // Put your actual InfinityFree vPanel password here
+$database = "if0_42198247_finance_tracker"; 
 
 $conn = new mysqli($servername, $username, $password, $database);
 
