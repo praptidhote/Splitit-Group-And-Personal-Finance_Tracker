@@ -566,14 +566,14 @@
             <h2 class="fw-bold mb-4" data-aos="fade-up">Friends Sharing Good Times</h2>
 
             <div class="row justify-content-center">
-                <div class="col-lg-8" data-aos="zoom-in" data-aos-duration="900">
-                    <div id="expenseCarousel" class="carousel slide slider-image-card" data-bs-ride="carousel">
+                <div class="col-md-8 col-lg-6" data-aos="zoom-in" data-aos-duration="900">
+                    <div id="expenseCarousel" class="carousel slide slider-image-card" data-bs-ride="carousel" style="max-width: 560px; margin: 0 auto; background: #ffffff;">
                         <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img src="images/11.png" class="d-block w-100" alt="Friends having a meal and sharing costs" style="max-height: 440px; object-fit: cover;">
-                                <div class="p-4 bg-white text-center">
+                            <div class="carousel-item active p-3 bg-white text-center">
+                                <img src="images/11.png" class="img-fluid rounded-4" alt="Friends splitting expenses" style="max-height: 480px; width: 100%; object-fit: contain;">
+                                <div class="pt-3 pb-2 bg-white text-center">
                                     <h5 class="fw-bold text-dark mb-1">Weekend Getaway & Dining Out</h5>
-                                    <p class="text-muted mb-0">"John, Sarah, and Mike split stay, travel and food without any spreadsheet headache!"</p>
+                                    <p class="text-muted mb-0 small">"John, Sarah, and Mike split stay, travel, and food without any spreadsheet headache!"</p>
                                 </div>
                             </div>
                         </div>
