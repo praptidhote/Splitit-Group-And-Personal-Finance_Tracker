@@ -19,16 +19,25 @@
 ## 📸 Live Application Screenshots
 
 ### 🏠 Public Landing & Interactive Split Calculator
-> Features dynamic floating badges, Animate-on-Scroll (AOS) effects, and an interactive bill-splitting calculator.
-![Home Page & Live Calculator](images/preview.png)
+Features dynamic floating badges, Animate-on-Scroll (AOS) effects, and an interactive bill-splitting calculator:
+
+<p align="center">
+  <img src="images/preview.png" alt="Home Page & Live Calculator" width="100%">
+</p>
 
 ### 🔐 Modern Glassmorphic Login & Authentication
-> Responsive authentication interface with floating ambient glow and form validation.
-![Login Screen](images/preview_login.png)
+Responsive authentication interface with floating ambient glow and form validation:
+
+<p align="center">
+  <img src="images/preview_login.png" alt="Login Screen" width="100%">
+</p>
 
 ### 📝 User Registration & Payment QR Upload
-> Secure user registration supporting payment QR code and profile picture uploads.
-![Registration Screen](images/preview_register.png)
+Secure user registration supporting payment QR code and profile picture uploads:
+
+<p align="center">
+  <img src="images/preview_register.png" alt="Registration Screen" width="100%">
+</p>
 
 ---
 
