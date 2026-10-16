@@ -1,16 +1,17 @@
 <?php
-ini_set('display_errors', 1);
-ini_set('display_startup_errors', 1);
-error_reporting(E_ALL);
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "detsdb";
 
-$servername = "://infinityfree.com"; 
-$username = "if0_42198247";  
-$password = "Radha@6509"; 
-$database = "if0_42198247_finance_tracker"; 
-
+// Procedural connection ($con)
 $con = mysqli_connect($servername, $username, $password, $database);
 
-if (mysqli_connect_errno()) {
-    die("Connection failed: " . mysqli_connect_error());
+// Object-Oriented connection ($conn)
+$conn = new mysqli($servername, $username, $password, $database);
+
+// Check connection
+if ($conn->connect_error) {
+    die("Database Connection failed: " . $conn->connect_error);
 }
 ?>
